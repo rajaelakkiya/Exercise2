@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+/* /footer> */
+ul {
+    list-style-type: none;
+    /* margin-bottom: 15px; */
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: color;
+    color: white;
+
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.myDiv {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    height: 75px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Create two equal coloum that floats next to each other */
+.box {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding-top: 60px;
+    /* Should be removed. Only for demonstration */
+}
+
+.row{
+    padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: left;
+
+}
+
+button {
+    background-color: blue;
+}
